@@ -25,7 +25,7 @@ Is there a faster way to do this ? yes!
   </script>
 </body>
 ```
-![hello_world.png](https://github.com/ViveKapoor/npm-package-as-url/blob/3ac60e2395d43a32bb95fdbcceb422e59ba22434/hello_world.png)
+![hello_world.png](https://raw.githubusercontent.com/ViveKapoor/npm-package-as-url/3ac60e2395d43a32bb95fdbcceb422e59ba22434/hello_world.png)
 ```
 <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>
