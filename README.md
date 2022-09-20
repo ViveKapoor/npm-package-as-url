@@ -71,10 +71,8 @@ For Example:
 https://unpkg.com/react@16.12.0/umd/react.development.js
 ```
 We can also get metadata and module information of a package by providing relevant query parameters
-- `?meta` Return metadata about any file in a package as JSON 
-example usage: [https://unpkg.com/react@16.12.0/umd/react.development.js?meta](https://unpkg.com/react@16.12.0/umd/react.development.js?meta)
-- `?module` Expands all “bare” import specifiers in JavaScript modules to unpkg URLs. This feature is very experimental
-example usage: [https://unpkg.com/react@16.12.0/umd/react.development.js?module](https://unpkg.com/react@16.12.0/umd/react.development.js?module)
+- `?meta` Return metadata about any file in a package as JSON. Example: [https://unpkg.com/react@16.12.0/umd/react.development.js?meta](https://unpkg.com/react@16.12.0/umd/react.development.js?meta)
+- `?module` Expands all “bare” import specifiers in JavaScript modules to unpkg URLs. This feature is very experimental. Example: [https://unpkg.com/react@16.12.0/umd/react.development.js?module](https://unpkg.com/react@16.12.0/umd/react.development.js?module)
 
 ## Challenges solved
 Getting the precompiled packages from unpkg (or other similar service) helps to solve a few challenges like:
