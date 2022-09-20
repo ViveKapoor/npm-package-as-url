@@ -68,9 +68,13 @@ Getting the precompiled packages from unpkg (or other similar service) helps to 
 - Ease to update dependencies to latest available version of the package
 
 ### How to use `unpkg`?
-The detailed usage instructions can be found on their official website [https://unpkg.com/](https://unpkg.com/), however it's widely used in below format
+The detailed usage instructions can be found on their official website [https://unpkg.com/](https://unpkg.com/), however it's packages are commonly requested in below format:
 ```
 unpkg.com/:package@:version/:file
+```
+For Example:
+```
+https://unpkg.com/react@16.12.0/umd/react.development.js
 ```
 We can also get metadata and module information of a package by providing relevant query parameters
 - `?meta`
