@@ -54,7 +54,7 @@ If we look at these two lines in the above snippet, that's where all magic goes.
 <script src="https://unpkg.com/react@16.12.0/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>
 ```
-This loads the required packages `react` and `react-dom` from [https://unpkg.com/](https://unpkg.com/) at load time. As the precompiled packages are very small in size(generally speaking) and the fact that unpkg delivers it via Cloudflare's global CDN which caches it and servers it from the nearest location from the user, this improves the load time for the user.
+This loads the required packages `react` and `react-dom` from [unpkg](https://unpkg.com/) at load time. As the precompiled packages are very small in size(generally speaking) and the fact that unpkg delivers it via Cloudflare's global CDN which caches it and servers it from the nearest location from the user, this improves the load time for the user.
 
 ### Unpkg workflow
 Unpkg uses CDNs (content delivery networks) because they allow static assets like images, JavaScript, and videos to be hosted physically close to end users as well as served with as fast as possible technology. unpkg is sponsored by Heroku where it is hosted, but that server is only actually used 5% of the time. The real power of a tool like unpkg is the fact that the files hosted at those URLs can be very heavily cached (npm doesn't allow published packages to be changed). So unpkg is also sponsored by Cloudflare which serves 95% of unpkg's traffic from the cache, making unpkg extremely fast.
@@ -67,16 +67,16 @@ Getting the precompiled packages from unpkg (or other similar service) helps to 
 - Quickly bootstrapping simple ReactJS applications
 - Ease to update dependencies to latest available version of the package
 
-
-
-Caching npm packages is possible because npm does't allow packages with same version to be re-published. Any npm package can be used in same way by requesting package in the below format:
+### How to use `unpkg`?
+The detailed usage instructions can be found on their official website [https://unpkg.com/](https://unpkg.com/), however it's widely used in below format
 ```
 unpkg.com/:package@:version/:file
 ```
-We can also get metadata and module information of a package by providing relevant query params. For example:
-`?meta`
+We can also get metadata and module information of a package by providing relevant query parameters
+- `?meta`
 Return metadata about any file in a package as JSON (e.g./any/file?meta)
-`?module`
+- `?module`
 Expands all “bare” import specifiers in JavaScript modules to unpkg URLs. This feature is very experimental
 
-There are more ways to load packages based on latest tag, listing, and more. Please visit `https://unpkg.com/` for more information on unpkg.
+### Key takeways
+Platforms like `unpkg` are very helpful for developing simple apps or even for demoing purpose. These help to reduce overall development time and also improves app performance which makes development enjoyable!
