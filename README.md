@@ -61,14 +61,6 @@ This loads the required packages `react` and `react-dom` from [unpkg](https://un
 ### Unpkg workflow
 Unpkg uses CDNs (content delivery networks) because they allow static assets like images, JavaScript, and videos to be hosted physically close to end users as well as served with as fast as possible technology. unpkg is sponsored by Heroku where it is hosted, but that server is only actually used 5% of the time. The real power of a tool like unpkg is the fact that the files hosted at those URLs can be very heavily cached (npm doesn't allow published packages to be changed). So unpkg is also sponsored by Cloudflare which serves 95% of unpkg's traffic from the cache, making unpkg extremely fast.
 
-
-### Challenges solved
-Getting the precompiled packages from unpkg (or other similar service) helps to solve a few challenges like:
-- Need for developers to re-compile pre-existing packages(bundle). This reduces developer's time and hence improves efficiency
-- Faster load times for end users
-- Quickly bootstrapping simple ReactJS applications
-- Ease to update dependencies to latest available version of the package
-
 ### How to use `unpkg`?
 The detailed usage instructions can be found on their official website [https://unpkg.com/](https://unpkg.com/), however it's packages are commonly requested in below format:
 ```
@@ -83,6 +75,13 @@ We can also get metadata and module information of a package by providing releva
 Return metadata about any file in a package as JSON (example: [https://unpkg.com/react@16.12.0/umd/react.development.js?meta](https://unpkg.com/react@16.12.0/umd/react.development.js?meta))
 - `?module`
 Expands all “bare” import specifiers in JavaScript modules to unpkg URLs (example: [https://unpkg.com/react@16.12.0/umd/react.development.js?module](https://unpkg.com/react@16.12.0/umd/react.development.js?module)). This feature is very experimental
+
+## Challenges solved
+Getting the precompiled packages from unpkg (or other similar service) helps to solve a few challenges like:
+- Need for developers to re-compile pre-existing packages(bundle). This reduces developer's time and hence improves efficiency
+- Faster load times for end users
+- Quickly bootstrapping simple ReactJS applications
+- Ease to update dependencies to latest available version of the package
 
 ### Key takeways
 Platform like `unpkg` is very helpful for developing simple apps or even apps for demo purpose. This helps to reduce overall development time and also improves overall app performance which makes development enjoyable!
