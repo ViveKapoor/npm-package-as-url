@@ -80,8 +80,8 @@ Expands all “bare” import specifiers in JavaScript modules to unpkg URLs (ex
 Getting the precompiled packages from unpkg (or other similar service) helps to solve a few challenges like:
 - Need for developers to re-compile pre-existing packages(bundle). This reduces developer's time and hence improves efficiency
 - Faster load times for end users
-- Quickly bootstrapping simple ReactJS applications
-- Ease to update dependencies to latest available version of the package
+- Quickly bootstrapping simple applications which require packages from NPM
+- Easily update dependencies to latest available version of the package
 
 ### Key takeways
 Platform like `unpkg` is very helpful for developing simple apps or even apps for demo purpose. This helps to reduce overall development time and also improves overall app performance which makes development enjoyable!
