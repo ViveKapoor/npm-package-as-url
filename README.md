@@ -83,4 +83,4 @@ Return metadata about any file in a package as JSON (example: [https://unpkg.com
 Expands all “bare” import specifiers in JavaScript modules to unpkg URLs (example: [https://unpkg.com/react@16.12.0/umd/react.development.js?module](https://unpkg.com/react@16.12.0/umd/react.development.js?module)). This feature is very experimental
 
 ### Key takeways
-Platforms like `unpkg` are very helpful for developing simple apps or even for demoing purpose. These help to reduce overall development time and also improves app performance which makes development enjoyable!
+Platform like `unpkg` is very helpful for developing simple apps or even apps for demo purpose. This helps to reduce overall development time and also improves overall app performance which makes development enjoyable!
