@@ -2,7 +2,7 @@
 
 A day ago, I felt like learning ReactJS and like is the tradition, I started with "Hello World!" single page react app. After successfully building the "Hello World!" app, now I want to share my journey because there's an interesting thing I discoverend along the way...
 
-Okay, so here are the summarized steps to display "Hello World!" using React ?
+Okay, so here are the summarized steps to display "Hello World!" using React
 
 1. Install `npm` (we need this to install react packages)
 ```bash
@@ -16,6 +16,7 @@ npm init
 ```bash
 npm install react react-dom --save
 ```
+4. Code, build, run
 
 ### **What is `npm` and what happens when we do `npm install` ?**
 npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs.
