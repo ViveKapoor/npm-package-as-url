@@ -17,7 +17,7 @@ npm init
 npm install react react-dom --save
 ```
 
-### What is npm and what happens when we do `npm install` ?
+### What is `npm` and what happens when we do `npm install` ?
 npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs.
 
 `npm install` downloads a package and it's dependencies. `npm install` can be run with or without arguments. When run without arguments, npm install downloads dependencies defined in a `package.json` file and generates a `node_modules` folder with the installed modules.
