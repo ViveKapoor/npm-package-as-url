@@ -78,9 +78,9 @@ https://unpkg.com/react@16.12.0/umd/react.development.js
 ```
 We can also get metadata and module information of a package by providing relevant query parameters
 - `?meta`
-Return metadata about any file in a package as JSON (e.g./any/file?meta)
+Return metadata about any file in a package as JSON (For example: [https://unpkg.com/react@16.12.0/umd/react.development.js?meta](https://unpkg.com/react@16.12.0/umd/react.development.js?meta))
 - `?module`
-Expands all “bare” import specifiers in JavaScript modules to unpkg URLs. This feature is very experimental
+Expands all “bare” import specifiers in JavaScript modules to unpkg URLs (For Example: [https://unpkg.com/react@16.12.0/umd/react.development.js?module](https://unpkg.com/react@16.12.0/umd/react.development.js?module)). This feature is very experimental
 
 ### Key takeways
 Platforms like `unpkg` are very helpful for developing simple apps or even for demoing purpose. These help to reduce overall development time and also improves app performance which makes development enjoyable!
