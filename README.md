@@ -30,8 +30,10 @@ In order to use ReactJS, I had to install these two packages with npm – `react
 I wondered, since npm doesn't allow making any changes to published packages, can't we use the precompiled packages directly without the need of downloading, installing and resolving dependencies everytime I build my project(app)?
 
 Well, after some research I found [https://unpkg.com/](https://unpkg.com/) which does exactly the same. It provides precompiled npm packages(bundle) for quick use. The code folder which would have looked something like this with multiple required files
-![folder_structure](https://raw.githubusercontent.com/ViveKapoor/npm-package-as-url/main/folder_structure.png) now looks this small and simple one file:
 
+![folder_structure](https://raw.githubusercontent.com/ViveKapoor/npm-package-as-url/main/folder_structure.png)
+
+now looks this small and simple one file:
 ```html
 <body>
   <div id="root"></div>
